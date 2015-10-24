@@ -1,4 +1,5 @@
 section .data ; initialized data:
+	; this is version 2!! Use this instead of version 1
 	msg: db "Hello World!",0xA
 	msgLen: equ $-msg
 section .text ; our logic sauce:
